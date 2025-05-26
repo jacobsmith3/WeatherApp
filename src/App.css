@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: center;*/
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.creditMe{
+  background-color: #282c34;
+  color: white;
+  position: absolute; 
+  top: 5px; 
+  right: 10px;
+  font-size:x-small;
+}
+
+.weather-Info{
+  background-color: #282c34;
+  border-radius: 10px;
+  border-width: 10px;
+  margin: 0 auto; /* to make the div center align to the browser */
+  width: 750px; /* set it to anything */
+  height: 500px;
+  text-align: center;
+}
